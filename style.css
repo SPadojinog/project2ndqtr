@@ -1,0 +1,172 @@
+.header{
+    margin: 0;
+    padding: 20% ;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Sour Gummy", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    font-family: "Chango", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 20px;
+    background-color: #A31D1D;
+}
+}
+
+.logo {
+    width: 50px; 
+    height: auto;
+    align-items:left;
+}
+
+.centered-heading {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.navbar {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    color: black;
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.navbar a:hover {
+    background-color: #D84040;
+    color: white;
+    list-style: none;
+    list-style-type: none;
+} 
+
+.carousel-wrapper {
+    margin: 0 auto;
+    margin-bottom:10px;
+    padding: 20px;
+    width: 40%; 
+    height: 70vh; 
+    position: relative;
+}
+
+.carousel-item img {
+    object-fit: cover; 
+    height: 100%; 
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.shadow-box {
+    width: 70%;
+    height: 30%;
+    background-color: #f0f0f0; 
+    margin: 10px auto; 
+    padding: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px; 
+}
+
+body {
+    background-image: url(https://i.pinimg.com/736x/d4/61/5a/d4615a584ce490cea8ea9517f8408623.jpg);
+}
+
+.title-box {
+    width: 20%;
+    height: 30%;
+    background-color: #f0f0f0; 
+    margin-left: 127px;
+    margin-right: 40px;
+    margin-top: 40px;
+    padding: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px; 
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+    list-style:none;
+    font-family: "Sour Gummy", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+.recipe-title-box {
+    width: 20%;
+    height: 30%;
+    background-color: #f0f0f0; 
+    margin-left: 127px;
+    margin-right: 40px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px; 
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+    list-style:none;
+    img: 100px;
+    font-family: "Sour Gummy", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+ul li{
+    list-style-type:circle;
+    text-align: left;
+}
+
+#recipe-box {
+    width: 70%;
+    height: 30%;
+    background-color: #f0f0f0; 
+    margin: 3px auto; 
+    margin-bottom:10px;
+    padding: 15px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px; 
+    list-style: none;
+}
+
+h3 {
+    text-align: center;
+}
+
+.go-back-box {
+    margin-top: 20px;
+    margin-left:50px;
+}
+
+#recipe-box {
+    margin-top: 20px;
+}
+
+footer {
+  background-color: #A31D1D;
+  padding: 25px;
+  text-align: center;
+  color: white;
+}

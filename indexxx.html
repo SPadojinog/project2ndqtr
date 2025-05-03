@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Chango&family=Chewy&family=DynaPuff:wght@400..700&family=Kaushan+Script&family=Kirang+Haerang&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&family=Rubik+Wet+Paint&family=Sofadi+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barriecito&family=Chango&family=Chewy&family=DynaPuff:wght@400..700&family=Kaushan+Script&family=Kirang+Haerang&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&family=Rubik+Wet+Paint&family=Sofadi+One&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css"> 
+	<title>Pista Ng Pinas</title>
+</head>
+<body>
+    <header>
+        <img src="https://i.pinimg.com/736x/c4/c9/8a/c4c98a02ddf96fb83b6db6fc3319158e.jpg" alt="Logo" class="logo rounded-circle" width="50px" length="50px">
+        <h1 class="centered-heading">Pista Ng Pinas</h1>
+    </header>
+
+    <nav class="navbar navbar-expand-sm bg-light">
+        <div class="container-fluid">
+            <ul class="navbar-nav d-flex justify-content-center mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="indexxxx.html">Categories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="indexx.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="indexxx.html">Submit Recipe</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="go-back-box">
+        <a href="index.html" class="btn btn-danger">< Go Back</a>
+    </div>
+
+    <div class="shadow-box">
+        <div class="body">
+            <form>
+                <div class="mb-3 row">
+                    <div class="col-md-6">
+                        <label for="inputName" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="inputName" placeholder="Enter your name...">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputAge" class="form-label">Age</label>
+                        <input type="number" class="form-control" id="inputAge" placeholder="Enter your age...">
+                    </div>
+                </div>
+            
+                <div class="mb-3 row">
+                    <div class="col-md-6">
+                        <label for="inputEmail" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Enter your email">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="inputPhoneNumber" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control" id="inputPhoneNumber" placeholder="Enter your Phone Number...">
+                    </div>
+                </div>
+
+                <div class="mb-3 row">
+                <p class="col-md-6">Preferred Categories Topics</p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="topicMainDishes">
+                        <label class="form-check-label" for="topicMainDishes">Main Dishes</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="topicDessert">
+                        <label class="form-check-label" for="topicDessert">Dessert</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="topicSnacks">
+                        <label class="form-check-label" for="topicSnacks">Snacks</label>
+                    </div>
+                </div>
+
+                <div class="mb-3 row">
+                <p class="col-md-6">Cooking Experience Level</p>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="ExperienceLevel" id="BeginnerLevel" value="Beginner">
+                        <label class="form-check-label" for="BeginnerLevel">Beginner</label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="ExperienceLevel" id="IntermediateLevel" value="Intermediate">
+                        <label class="form-check-label" for="IntermediateLevel">Intermediate</label>
+                    </div>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="ExperienceLevel" id="AdvancedLevel" value="Advanced">
+                        <label class="form-check-label" for="AdvancedLevel">Advanced</label>
+                    </div>
+                </div>
+
+                    <div class="mb-3">
+                        <label for="PRP" class="form-label">Preferred Filipino Recipes</label>
+                            <select class="form-select" id="PRP">
+                                <option selected>Choose your preferred Filipino recipe...</option>
+                                <option value="Sour">Sour</option>
+                                <option value="Sweet">Sweet</option>
+                                <option value="Savory">Savory</option>
+                            </select>
+                    </div>
+            
+                    <div class="mb-3">
+                        <label for="SOI" class="form-label">Statement of Interest</label>
+                        <textarea class="form-control" id="SOI" rows="3" placeholder="Why are you interested in cooking?"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-danger">Submit</button>
+
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>9 - Sapphire | Sofia Laurence F. Padojinog</p>
+    </footer>
+
+</body>
+</html>
